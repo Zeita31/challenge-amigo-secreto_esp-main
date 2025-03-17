@@ -170,14 +170,21 @@ ul {
 
 @media (max-width: 1200px){
 
-    .main-title{
-    display:flex;
-    padding: 0 0 0 70%;
+    .header-banner{
+        padding: 10%;   
 
     }
     .main-content{
         flex-direction: column;
+        padding: 5%;
+    }
+
+    .input-section{
         width: auto;
+    }
+
+
+
     }
     
 }
