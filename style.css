@@ -168,24 +168,35 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1100px){
 
-    .header-banner{
-        padding: 10%;   
-
-    }
     .main-content{
         flex-direction: column;
-        padding: 5%;
+        padding:5%;
+        display:flex;
+        justify-content: center;
+    }
+
+    .header-banner{
+        padding: 10%;
+
     }
 
     .input-section{
         width: auto;
     }
 
-
-
+    .main-title{
+        flex-direction: column;
+        justify-content: center;
+        padding:1% 0 0 45%
+    
+    
     }
+
+
+
+    
     
 }
    
