@@ -168,5 +168,10 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-
+@media (max-width: 1200px){
+    .main-content{
+        flex-direction: column;
+    }
+    
+}
    
