@@ -177,6 +177,7 @@ ul {
     }
     .main-content{
         flex-direction: column;
+        width: auto;
     }
     
 }
