@@ -169,6 +169,12 @@ ul {
 }
 
 @media (max-width: 1200px){
+
+    .main-title{
+    display:flex;
+    padding: 0 0 0 15%;
+
+    }
     .main-content{
         flex-direction: column;
     }
